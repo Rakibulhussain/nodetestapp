@@ -15,6 +15,13 @@ app.get("/", (req: Request, res: Response) => {
   return res.send("It's working 🙌");
 });
 
+app.get("/hello", (req: Request, res: Response) => {
+  return res.send("Welcome to the API v1 and hello from the backend 🙌");
+});
+app.get("/api/v1/hello", (req: Request, res: Response) => {
+  return res.send("Welcome to the API v1 and hello from the backend 🙌");
+});
+
 
 
 
